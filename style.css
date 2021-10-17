@@ -93,8 +93,18 @@ body {
 
 .pagination	{
 	display: flex;
-	justify-content: space-around;
-	width: 105px;
+	justify-content: space-evenly;
+	width: 120px;
+}
+
+.pagination label {
+	cursor: pointer;
+	padding: 5px;
+}
+
+.pagination label:active .bullet{
+	background-color:#eb8732;
+	border-color: #eb8732;
 }
 
 .bullet {
